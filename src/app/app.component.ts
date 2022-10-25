@@ -51,7 +51,6 @@ export class AppComponent implements OnInit {
   getNames(){
     this.service.getData().subscribe(response => {
       this.options = response;
-      // this.filteredOptions = response;
     })
   }
 
